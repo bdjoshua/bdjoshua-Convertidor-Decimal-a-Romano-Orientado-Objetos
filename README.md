@@ -8,4 +8,4 @@ Códigos de ejemplo usados en la clase de fundamentos de programación del semes
 ### Realizado por:
   #### [Joshua Alejandro Barrera Domínguez.](https://github.com/bdjoshua) 
   ##### Grupo: 1A6
-![image](https://github.com/user-attachments/assets/a26f56f4-3c2f-4914-b9cd-b7f0bd5f6bb1)
+
