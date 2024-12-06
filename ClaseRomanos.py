@@ -9,23 +9,20 @@ class ConvertidoraRomano:
         if 1 <= numero <= 3999:
             self.__numero = numero
         else:
-            raise ValueError("Número fuera del rango permitido (1 - 3999).")
+            raise ValueError("Número fuera del rango.")
 
     def Resultado(self):
         return self.__resultado
 
     def Convertir(self):
         numero = self.__numero
-        self.__resultado = ''
+        self.__resultado = ""
         i = len(self.__romanos) - 1
 
         while numero > 0:
-            if numero >= self.__decimales[i]:
+            while numero >= self.__decimales[i]:
                 self.__resultado += self.__romanos[i]
                 numero -= self.__decimales[i]
-            else:
-                i -= 1 
+            i -= 1 
 
-        return self.__resultado
-
-
+        return self.__resultado 
